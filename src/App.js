@@ -590,11 +590,13 @@ function App() {
         {
         
         curentDefinitions.map((definition, index) => (
+          <React.Fragment key={index}>
           <button
-            key={index}
+            //key={index}
             onClick={() => handleAnswerClick(definition)}
             disabled={isAnswered}
             style={{
+              marginBottom: '10px',
               backgroundColor:
                 isAnswered
                   ? definition === wordsAndDefinitions[currentWordIndex].definition
@@ -603,8 +605,11 @@ function App() {
                   : 'lightgray',
             }}
           >
+          
             {definition}
           </button>
+          <br/>
+          </React.Fragment>
         ))
         
         }
