@@ -1,4 +1,4 @@
-word,definition,sentence
+word,definition,sentences
 abandon,"to leave something or someone behind","The boy had to abandon his toy because it broke."
 abode,"a home or place where someone lives","Her abode was a small house near the park."
 absence,"not being present or not there","The teacher noticed my absence in class today."
